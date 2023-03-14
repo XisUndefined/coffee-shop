@@ -15,7 +15,7 @@ li {
 body {
     font-family: 'Lato', sans-serif;
     /* width: 100vw; */
-    height: 10000px;
+    /* height: 10000px; */
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     height: 100svh;
     background-image: url("./img/Coffe Header.png");
     background-size: cover;
-    border-radius: 1rem;
+    border-radius: 1.618rem;
 }
 
 header .container {
@@ -32,7 +32,7 @@ header .container {
     box-sizing: border-box;
     padding: 1.5rem 2.5rem;
     background-color: rgba(37, 55, 60, .8);
-    border-radius: 1rem;
+    border-radius: 1.618rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -177,6 +177,12 @@ header .header-text p {
     margin: 1rem 0 2rem;
     align-self: flex-start;
     text-align: center;
+    max-width: 165.594px;
+}
+
+.content a:active {
+    /* transition: 2s; */
+    transform: scale(110%,110%);
 }
 
 .content .galery-wrapper {
@@ -235,7 +241,7 @@ footer .container {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    padding: 1.5rem 2.5rem;
+    padding: 1rem 2rem;
     background-color: #143642;
     border-radius: 1.618rem;
     display: flex;
@@ -248,8 +254,33 @@ footer .logo-wrapper {
     font-size: 2rem;
     color: #f9fbfe;
     flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+footer .logo {
+    flex: 7;
 }
 
 footer .logo img {
-    width: 40vw;
+    width: 165.59px;
+}
+
+footer .fa {
+    padding: calc(1rem / 1.618)
+}
+
+footer h3 {
+    color: #ec9a29;
+    margin: calc(1rem / 1.618) 0;
+}
+
+footer li {
+    margin: calc(1rem / 1.618) 0 calc(1rem / 1.618) 2rem;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #f9fbfe;
+    margin: 2rem 0;
 }
