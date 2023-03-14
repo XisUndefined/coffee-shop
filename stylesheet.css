@@ -132,8 +132,10 @@ header .header-text p {
 /* --- */
 
 .content .card .background-card-1 {
-    width: 80vmin;
-    height: calc((80vmin * 212.84) / 319.25);
+    width: 70vmin;
+    height: calc((70vmin * 212.84) / 319.25);
+    max-width: 319.25px;
+    max-height: 212.84px;
     /* height: 53.335vmin; */
     background-image: url("./img/Who are we.jpg");
     background-size: cover;
@@ -144,8 +146,10 @@ header .header-text p {
 .content .card .background-card-2 {
     /* width: 155px;
     height: 232.73px; */
-    width: 40vmin;
-    height: calc((40vmin * 232.73) / 155);
+    width: 35vmin;
+    height: calc((35vmin * 232.73) / 155);
+    max-width: 155px;
+    max-height: 232.73px;
     /* height: 52.552vmin; */
     background-image: url("./img/Our products.jpg");
     background-size: cover;
@@ -156,10 +160,10 @@ header .header-text p {
 }
 
 .content .card .background-card-3 {
-    /* width: 276.13px;
-    height: 155px; */
-    width: 72vmin;
-    height: calc((72vmin * 155) / 276.13);
+    max-width: 276.13px;
+    max-height: 155px;
+    width: 62vmin;
+    height: calc((62vmin * 155) / 276.13);
     background-image: url("./img/Hang out with us.jpg");
     background-size: cover;
     clip-path: inset(0 22% round 10px);
