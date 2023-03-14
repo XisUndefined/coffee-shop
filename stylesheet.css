@@ -20,7 +20,7 @@ body {
 
 header {
     width: 100vw;
-    height: 100vh;
+    height: 100svh;
     background-image: url("./img/Coffe Header.png");
     background-size: cover;
     border-radius: 1rem;
