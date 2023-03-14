@@ -14,15 +14,15 @@ li {
 
 body {
     font-family: 'Lato', sans-serif;
-    width: 100vw;
+    /* width: 100vw; */
     height: 10000px;
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 550px;
     background-image: url("./img/Coffe Header.png");
-    background-size: cover;
+    /* background-size: cover; */
     border-radius: 1rem;
 }
 
@@ -51,20 +51,21 @@ header .container {
     width: 100%;
     align-items: center;
     flex: 0.5;
+    padding: 1.618rem 0;
 }
 
 .container ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
 }
 
-.container li {
+/* .container li {
     display: inline-block;
-    padding: calc(1rem / 1.618);
+    
     margin: 1rem 5vw;
     
-}
+} */
 
 .container a {
     color: white;
@@ -79,19 +80,20 @@ header .header-text {
     /* background-color: coral; */
     flex: 7;
     justify-content: center;
-    align-content: flex-start;
-    padding-top: 15%;
+    align-content: center;
+    /* padding-top: 15%; */
     font-size: calc(1.8rem * 1.618);
 }
 
 header .header-text h1 {
     font-size: 1em;
     font-weight: 900;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
 }
 
 header .header-text p {
     font-size: calc(0.7em / 1.618);
+    margin-top: 1rem;
 }
 
 .content .container {
@@ -107,6 +109,7 @@ header .header-text p {
     align-items: center;
     flex-wrap: wrap;
     width: 80vw;
+    /* height: 53.335vw; */
     margin: 0 1.5rem;
     padding: 0 1.5rem;
 }
@@ -129,19 +132,21 @@ header .header-text p {
 /* --- */
 
 .content .card .background-card-1 {
-    width: 319.25px;
-    height: 212.84px;
+    width: 80vmin;
+    height: calc((80vmin * 212.84) / 319.25);
+    /* height: 53.335vmin; */
     background-image: url("./img/Who are we.jpg");
     background-size: cover;
     clip-path: inset(0 25% round 10px);
     margin-bottom: 1rem;
-    /* position: relative;
-    bottom: 1rem; */
 }
 
 .content .card .background-card-2 {
-    width: 155px;
-    height: 232.73px;
+    /* width: 155px;
+    height: 232.73px; */
+    width: 40vmin;
+    height: calc((40vmin * 232.73) / 155);
+    /* height: 52.552vmin; */
     background-image: url("./img/Our products.jpg");
     background-size: cover;
     clip-path: inset(15% 0 round 10px);
@@ -151,8 +156,10 @@ header .header-text p {
 }
 
 .content .card .background-card-3 {
-    width: 276.13px;
-    height: 155px;
+    /* width: 276.13px;
+    height: 155px; */
+    width: 72vmin;
+    height: calc((72vmin * 155) / 276.13);
     background-image: url("./img/Hang out with us.jpg");
     background-size: cover;
     clip-path: inset(0 22% round 10px);
