@@ -19,7 +19,8 @@ body {
 }
 
 header {
-    width: 100vw;
+    /* width: 100vw; */
+    height: 100vh;
     height: 100svh;
     background-image: url("./img/Coffe Header.png");
     background-size: cover;
@@ -34,16 +35,20 @@ header .container {
     background-color: rgba(37, 55, 60, .8);
     border-radius: 1.618rem;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
 }
 
 header .logo {
     flex: 1;
+    display: flex;
+    align-items: center;
 }
 
 header .logo img {
     width: 40vw;
+    min-width: 166.39px;
+    max-width: 284.8px;
 }
 
 .container nav {
@@ -76,7 +81,8 @@ header .header-text {
     color: white;
     text-align: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     /* background-color: coral; */
     flex: 7;
     justify-content: center;
@@ -100,7 +106,7 @@ header .header-text p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .content .card {
@@ -110,7 +116,7 @@ header .header-text p {
     flex-wrap: wrap;
     width: 80vw;
     /* height: 53.335vw; */
-    margin: 0 1.5rem;
+    margin: 0 1.5rem 1rem;
     padding: 0 1.5rem;
 }
 
@@ -136,27 +142,21 @@ header .header-text p {
     height: calc((70vmin * 212.84) / 319.25);
     max-width: 319.25px;
     max-height: 212.84px;
-    /* height: 53.335vmin; */
-    background-image: url("./img/Who are we.jpg");
-    background-size: cover;
+    /* background-image: url("./img/Who are we.jpg");
+    background-size: cover; */
     clip-path: inset(0 25% round 10px);
     margin-bottom: 1rem;
 }
 
 .content .card .background-card-2 {
-    /* width: 155px;
-    height: 232.73px; */
     width: 35vmin;
     height: calc((35vmin * 232.73) / 155);
     max-width: 155px;
     max-height: 232.73px;
-    /* height: 52.552vmin; */
-    background-image: url("./img/Our products.jpg");
-    background-size: cover;
+    /* background-image: url("./img/Our products.jpg");
+    background-size: cover; */
     clip-path: inset(15% 0 round 10px);
     margin: -1rem 0;
-    /* position: relative;
-    top: 1rem; */
 }
 
 .content .card .background-card-3 {
@@ -164,12 +164,10 @@ header .header-text p {
     max-height: 155px;
     width: 62vmin;
     height: calc((62vmin * 155) / 276.13);
-    background-image: url("./img/Hang out with us.jpg");
-    background-size: cover;
+    /* background-image: url("./img/Hang out with us.jpg");
+    background-size: cover; */
     clip-path: inset(0 22% round 10px);
     margin: 1rem 0;
-    /* position: relative;
-    top: 1rem; */
 }
 
 .content .card a {
@@ -178,7 +176,7 @@ header .header-text p {
     width: 40vw;
     border-radius: 2rem;
     padding: calc(1rem / 1.618) 1rem;
-    margin: 1rem 0 2rem;
+    margin: 1rem 0 0;
     align-self: flex-start;
     text-align: center;
     max-width: 165.594px;
