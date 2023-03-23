@@ -1,0 +1,108 @@
+@media all and (min-width: 768px) {
+    .content .card {
+        width: 70vw;
+        flex-wrap: nowrap;
+        margin: 2rem 0;
+    }
+
+    .content a:not(.card-image):hover {
+        transform: scale(105%,105%);
+    }
+
+    .content a:not(.card-image):active {
+        transform: scale(100%, 100%);
+    }
+
+    .content .card .card-text {
+        width: 60%;
+    }
+
+    .content .card {
+        padding: 0;
+    }
+    
+    .content .profile .card-text {
+        padding-left: 10%;
+    }
+
+    .content .showcase .card-text {
+        padding-right: 10%;
+    }
+
+    .content .hangout .card-text {
+        padding-left: 10%;
+    }
+    
+    .content .card .card-image {
+        white-space: nowrap;
+        border-radius: 1rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .content .showcase {
+        flex-direction: row-reverse;
+    }
+
+    .content .profile .card-image {
+        background-image: url("./img/Who are we.jpg");
+        width: 25vw;
+        height: calc((25vw * 3479) / 2609.5);
+        min-width: 25vw;
+    }
+
+    .content .showcase .card-image {
+        background-image: url("./img/Our products.jpg");
+        width: 25vw;
+        height: calc((25vw * 3554.6) / 3385);
+        min-width: 25vw;
+    }
+
+    .content .hangout .card-image {
+        background-image: url("./img/Hang out with us.jpg");
+        width: 30vw;
+        height: calc((30vw * 2257.92) / 2268);
+        min-width: 30vw;
+    }
+
+    footer .container {
+        margin-top: 3rem;
+    }
+    
+    /* .content .profile .card-image img {
+        width: 30vmin;
+        height: calc((30vmin * 212.84) / 319.25);
+        max-width: 319.25px;
+        max-height: 212.84px;
+        clip-path: inset(0 25% round 10px);
+        margin: 0;
+    }
+    
+    .content .showcase .card-image img {
+        width: 30vmin;
+        height: calc((30vmin * 232.73) / 155);
+        max-width: 155px;
+        max-height: 232.73px;
+        clip-path: inset(15% 0 round 10px);
+        margin: 0;
+    }
+    
+    .content .hangout .card-image img {
+        width: 30vmin;
+        height: calc((62vmin * 155) / 276.13);
+        max-width: 276.13px;
+        max-height: 155px;
+        clip-path: inset(0 22% round 10px);
+        margin: 0;
+    } */
+}
+
+@media all and (min-width: 1024px) {
+    html {
+        font-size: calc(16px * 1.618);
+    }
+
+    footer .logo img {
+        width: calc(165.59px * 1.618);
+    }
+}
