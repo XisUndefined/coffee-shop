@@ -35,19 +35,25 @@ header .container {
     flex-direction: column;
 }
 
-header .logo {
-    flex: 1;
+header .header-logo {
     display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+header .header-logo .logo {
+    display: flex;
+    flex: 1;
     align-items: center;
 }
 
-header .logo img {
+header .header-logo .logo img {
     width: 40vw;
     min-width: 166.39px;
     max-width: 284.8px;
 }
 
-.container nav {
+header .header-logo nav {
     display: flex;
     width: 100%;
     align-items: center;
