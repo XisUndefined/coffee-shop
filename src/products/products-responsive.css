@@ -92,3 +92,14 @@
         padding: 0 0 0 calc(1rem / 1.618);
     }
 }
+
+@media all and (min-width: 1024px) {
+    body {
+        font-size: calc(12px * 1.618);
+    }
+
+    footer .logo img {
+        width: 100%;
+        max-width: calc(165.59px * 1.618);
+    }
+}
