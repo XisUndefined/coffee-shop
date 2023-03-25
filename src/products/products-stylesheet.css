@@ -1,0 +1,185 @@
+/* reset */
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* style */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+
+header {
+    background-color: #0f8b8d;
+    border-radius: 1.618rem 1.618rem 0 0;
+}
+
+header .container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem 2.5rem 0;
+    border-radius: 1.618rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header .header-logo {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+header .header-logo .logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+header .header-logo .logo img {
+    width: 40vw;
+    min-width: 166.39px;
+    max-width: 284.8px;
+}
+
+header .header-logo nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex: 0.5;
+    padding: 1.618rem 0;
+}
+
+header .container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+}
+
+.content .container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+
+.content .container .heading {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+
+.content .container .heading h1 {
+    color: #0f8b8d;
+    font-size: calc(2*1.618em);
+    padding: 1rem 0;
+}
+
+.content .container .heading p {
+    color: #143642;
+    font-size: 2em;
+    padding-bottom: 1rem;
+}
+
+.content .container .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem 5vw;
+
+}
+
+.content .container .card-wrapper .card {
+    width: 40vw;
+    height: 40vw;
+    font-size: 3vw;
+    box-sizing: border-box;
+    padding: 0 .5rem;
+    border-radius: 5vw;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.content .container .card-wrapper .card h2 {
+    font-weight: 700;
+    padding: .5rem 0;
+}
+
+.content .container .card-wrapper .card p {
+    font-weight: 400;
+    padding: 0 0 .25rem;
+}
+
+.content .container .card-wrapper .card img {
+    width: 90%;
+}
+
+.content .container .card-wrapper a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("../../img/Coffee background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer .container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    background-color: #143642;
+    border-radius: 1.618rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer .logo-wrapper {
+    display: flex;
+    font-size: 2rem;
+    color: #f9fbfe;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+footer .logo {
+    flex: 7;
+}
+
+footer .logo img {
+    width: 165.59px;
+}
+
+footer .fa {
+    padding: calc(1rem / 1.618)
+}
+
+footer h3 {
+    color: #ec9a29;
+    margin: calc(1rem / 1.618) 0;
+}
+
+footer li {
+    margin: calc(1rem / 1.618) 0 calc(1rem / 1.618) 2rem;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #f9fbfe;
+    margin: 2rem 0;
+}
