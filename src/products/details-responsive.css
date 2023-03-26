@@ -1,0 +1,130 @@
+@media all and (min-width: 768px) {
+    header .container {
+        padding: 1.5rem 2.5rem;
+    }
+
+    header .header-logo {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        padding: 0 5vw;
+    }
+
+    header .header-logo .logo {
+        flex: 1;
+    }
+
+    header .header-logo nav {
+        flex: 1.5;
+    }
+
+    header .container ul {
+        justify-content: flex-end;
+    }
+
+    header .container ul a {
+        margin-left: 5vw;
+    }
+
+    header .header-text {
+        flex: 8;
+        padding: 0 20vw;
+    }
+
+    .content .container {
+        padding: 0 15vw;
+    }
+
+    .content .container .image-wrapper {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .content .container .image-wrapper img {
+        width: 40%;
+    }
+
+    .content .container .image-wrapper .text-wrapper {
+        width: 60%;
+    }
+
+    .content .container .description h2 {
+        display: inline-block;
+        padding-right: 3em;
+        border-bottom: #ec9a29 solid 2px;
+    }
+
+    .content .container .description {
+        padding: 0 5vw;
+    }
+
+    .content .container .description p {
+        border: 0;
+    }
+
+    .content .container .description a:hover {
+        transform: scale(105%,105%);
+    }
+
+    .content .container .description a:active {
+        transform: scale(100%, 100%)
+    }
+
+    footer .container {
+        margin-top: 3rem;
+        padding: 3vw 8vw 10vw;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        row-gap: 5vw;
+        justify-content: space-around;
+    }
+
+    footer .copyright {
+        display: none;
+    }
+
+    footer .logo-wrapper {
+        align-content: flex-start;
+        flex-wrap: wrap;
+        margin: 0;
+        width: 25%;
+    }
+
+    footer .logo {
+        flex-basis: 100%;
+        margin-bottom: 1rem;
+    }
+
+    footer .logo img {
+        width: 100%;
+        max-width: 165.59px;
+    }
+
+    footer h3 {
+        margin: 0 0 calc(1rem / 1.618);
+    }
+
+    footer li {
+        margin: calc(1rem / 1.618) 0;
+    }
+
+    footer .fa-envelope {
+        padding: 0 calc(1rem / 1.618) 0 0;
+    }
+
+    footer .fa-phone {
+        padding: 0 0 0 calc(1rem / 1.618);
+    }
+}
+
+@media all and (min-width: 1024px) {
+    html {
+        font-size: calc(12px * 1.618);
+    }
+
+    footer .logo img {
+        width: 100%;
+        max-width: calc(165.59px * 1.618);
+    }
+}

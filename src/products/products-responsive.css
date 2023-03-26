@@ -30,16 +30,6 @@
         flex: 8;
         padding: 0 20vw;
     }
-
-    footer .container {
-        margin-top: 3rem;
-        padding: 3vw 8vw 10vw;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        row-gap: 5vw;
-        justify-content: space-around;
-    }
-
     .content .container .card-wrapper {
         padding: 0 10vw;
     }
@@ -53,6 +43,15 @@
         border-radius: 2vw;
         justify-content: flex-end;
         text-align: center;
+    }
+
+    footer .container {
+        margin-top: 3rem;
+        padding: 3vw 8vw 10vw;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        row-gap: 5vw;
+        justify-content: space-around;
     }
 
     footer .copyright {

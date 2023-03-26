@@ -1,5 +1,9 @@
 /* reset */
 
+html {
+    font-size: 12px;
+}
+
 * {
     border: 0;
     padding: 0;
@@ -14,7 +18,6 @@ li {
 
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 12px;
 }
 
 header {
@@ -69,7 +72,71 @@ header .container ul {
     text-decoration: none;
 }
 
+.content .container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 10vw;
+    margin: 2rem 0 3rem;
+}
 
+.content .container .image-wrapper {
+    margin-bottom: 2rem;
+}
+
+.content .container .image-wrapper img {
+    width: 80vw;
+}
+
+.content .container .image-wrapper h1 {
+    color: #0f8b8d;
+    font-weight: 700;
+}
+
+.content .container .image-wrapper p {
+    color: #143642;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: calc(1rem / 1.618) 0;
+}
+
+.content .container .image-wrapper p.price {
+    color: #0f8b8d;
+    font-size: 2.5em;
+    font-weight: 900;
+    padding: 0;
+}
+
+.content .container .description h2 {
+    color: #0f8b8d;
+    font-size: 2em;
+    font-weight: 500;
+    padding: calc(1rem / 1.618) 0;
+    border-bottom: #ec9a29 solid 1px;
+}
+
+.content .container .description p {
+    color: #143642;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: calc(1rem / 1.618) 0 2rem;
+    border-top: #ec9a29 solid 1px;
+}
+
+.content .container .description a {
+    background-color: #a8201a;
+    display: inline-block;
+    border-radius: 5vw;
+    padding: calc(1em / 1.618) 1em;
+}
+
+.content .container .description a:active {
+    transform: scale(90%,90%);
+}
+
+.content .container .description .fa-chevron-left {
+    margin-right: .5rem;
+}
 
 footer .container {
     width: 100%;
