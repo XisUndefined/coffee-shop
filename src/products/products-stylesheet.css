@@ -112,6 +112,10 @@ header .container ul {
     text-align: center;
 }
 
+.content .container .card-wrapper .card-text {
+    height: 100%;
+}
+
 .content .container .card-wrapper .card h2 {
     font-weight: 700;
     padding: .5rem 0;

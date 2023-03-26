@@ -30,8 +30,25 @@
         flex: 8;
         padding: 0 20vw;
     }
+
+    .content .container .card-wrapper .card .card-text {
+        transition: all 1s;
+    }
+
+    .content .container .card-wrapper .card:hover .card-text {
+        transform: translateY(12vw);
+        -webkit-transform: translateY(12vw);
+        -moz-transform: translateY(12vw);
+        -o-transform: translateY(12vw);
+        -ms-transform: translateY(12vw);
+    }
+
     .content .container .card-wrapper {
         padding: 0 10vw;
+    }
+    
+    .content .container .card-wrapper .card:hover {
+        transform: scale(105%);
     }
 
     .content .container .card-wrapper .card {
@@ -43,6 +60,15 @@
         border-radius: 2vw;
         justify-content: flex-end;
         text-align: center;
+        transition: all .05s;
+    }
+
+    .content .container .card-wrapper .card:hover img {
+        transform: scale(110%) translateY(-6vw);
+    }
+
+    .content .container .card-wrapper .card img {
+        transition: all .5s;
     }
 
     footer .container {
