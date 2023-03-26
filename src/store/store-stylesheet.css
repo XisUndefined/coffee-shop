@@ -1,0 +1,156 @@
+/* reset */
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* style */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+
+header {
+    background-color: #0f8b8d;
+    border-radius: 1.618rem 1.618rem 0 0;
+}
+
+header .container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem 2.5rem 0;
+    border-radius: 1.618rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header .header-logo {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+header .header-logo .logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+header .header-logo .logo img {
+    width: 40vw;
+    min-width: 166.39px;
+    max-width: 284.8px;
+}
+
+header .header-logo nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex: 0.5;
+    padding: 1.618rem 0;
+}
+
+header .container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+}
+
+.content .container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10vw 10vw 0;
+}
+
+.content .container .map {
+    background-color: #0f8b8d;
+    width: 100%;
+    height: 80vw;
+    border-radius: 2vw;
+    margin: 0 0 3rem;
+}
+
+.content .container .heading h1 {
+    color: #0F8B8D;
+}
+
+.content .container .heading p {
+    color: #143642;
+    margin: 1rem 0;
+}
+
+.content .container .card {
+    color: #143642;
+    border: #D2D2D2 solid 1px;
+    border-radius: 2vw;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+.content .container .card h2 {
+    font-weight: 700;
+    padding-bottom: calc(1rem / 1.618);
+}
+
+footer .container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    background-color: #143642;
+    border-radius: 1.618rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer .logo-wrapper {
+    display: flex;
+    font-size: 2rem;
+    color: #f9fbfe;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+footer .logo {
+    flex: 7;
+}
+
+footer .logo img {
+    width: 165.59px;
+}
+
+footer .fa {
+    padding: calc(1rem / 1.618)
+}
+
+footer h3 {
+    color: #ec9a29;
+    margin: calc(1rem / 1.618) 0;
+}
+
+footer li {
+    margin: calc(1rem / 1.618) 0 calc(1rem / 1.618) 2rem;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #f9fbfe;
+    margin: 2rem 0;
+}

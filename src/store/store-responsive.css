@@ -31,40 +31,26 @@
         padding: 0 20vw;
     }
 
-    .content .container .card-wrapper {
-        padding: 0 10vw;
+    .content .container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5vw 5vw 0;
     }
 
-    .content .container .card-wrapper .card .card-text {
-        transition: all 1s;
-    }
-
-    .content .container .card-wrapper .card:hover .card-text {
-        transform: translateY(12vw);
-    }
-    
-    .content .container .card-wrapper .card:hover {
-        transform: scale(105%);
-    }
-
-    .content .container .card-wrapper .card {
-        width: 20vw;
-        height: 20vw;
-        font-size: 1.7vw;
-        box-sizing: border-box;
-        padding: 0 .5rem;
+    .content .container .map {
+        margin: 0;
         border-radius: 2vw;
-        justify-content: flex-end;
-        text-align: center;
-        transition: all .05s;
+        flex-basis: 50%;
+        max-width: 400px;
+        height: 400px;
+        order: 2;
     }
 
-    .content .container .card-wrapper .card:hover img {
-        transform: scale(110%) translateY(-6vw);
-    }
-
-    .content .container .card-wrapper .card img {
-        transition: all .5s;
+    .content .container .text-container {
+        padding-right: 5vw;
+        box-sizing: border-box;
+        flex-basis: 50%;
     }
 
     footer .container {
