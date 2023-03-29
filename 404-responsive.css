@@ -1,4 +1,8 @@
 @media all and (min-width: 768px) {
+    header .container {
+        padding: 1.5rem 2.5rem;
+    }
+
     header .header-logo {
         flex: 1;
         display: flex;
@@ -27,7 +31,13 @@
         padding: 0 20vw;
     }
 
+    .content .container .btn:hover {
+        transform: scale(105%, 105%);
+    }
 
+    .content .container .btn:active {
+        transform: scale(100%, 100%);
+    }
 
     footer .container {
         margin-top: 3rem;
@@ -77,12 +87,20 @@
 }
 
 @media all and (min-width: 1024px) {
-    html {
+    body {
         font-size: calc(16px * 1.618);
     }
 
     footer .logo img {
         width: 100%;
         max-width: calc(165.59px * 1.618);
+    }
+
+    .content .container .btn a {
+        border-radius: 1rem;
+    }
+
+    .content .container .btn .daun {
+        width: 2rem;
     }
 }

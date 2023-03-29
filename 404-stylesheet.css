@@ -15,22 +15,19 @@ li {
 body {
     font-family: 'Lato', sans-serif;
     background-color: #edc9ad;
+    font-size: 12px;
 }
 
 header {
-    height: 100vh;
-    height: 100svh;
-    background-image: url("./img/Coffe Header.png");
-    background-size: cover;
-    border-radius: 1.618rem;
+    background-color: #0f8b8d;
+    border-radius: 1.618rem 1.618rem 0 0;
 }
 
 header .container {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    padding: 1.5rem 2.5rem;
-    background-color: rgba(37, 55, 60, .8);
+    padding: 1.5rem 2.5rem 0;
     border-radius: 1.618rem;
     display: flex;
     flex-direction: column;
@@ -71,27 +68,6 @@ header .container ul {
 .container a {
     color: white;
     text-decoration: none;
-}
-
-header .header-text {
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex: 7;
-    justify-content: center;
-    align-content: center;
-    font-size: calc(1.8rem * 1.618);
-}
-
-header .header-text h1 {
-    font-size: 1em;
-    font-weight: 900;
-}
-
-header .header-text p {
-    font-size: calc(0.7em / 1.618);
-    margin-top: 1rem;
 }
 
 .content .container {
